@@ -46,3 +46,6 @@ or
 ```powershell
 > git remote -v     // git 연결상태 보여줌
 ```
+```powershell
+> git log --stat    // log 기록, "Q" : 빠져나오기
+```
