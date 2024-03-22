@@ -35,6 +35,7 @@ or
 > git diff          //변경사항 확인하기
 ```
 ```powershell
+> git branch -a     // 모든 브랜치 보기
 > git branch AAAA   // AAAA브랜치 만들기
 ```
 ```powershell
