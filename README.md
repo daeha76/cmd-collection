@@ -23,6 +23,7 @@
 ```powershell
 > exit 터미널 종료
 ```
+### push 하기
 ```powershell
 > git add .
 > git commit -m "설명"
@@ -31,22 +32,34 @@ or
 
 > git push -u origin <branch명>
 ```
+
 ```powershell
 > git diff          //변경사항 확인하기
 ```
+
+### 브랜치
 ```powershell
 > git branch -a     // 모든 브랜치 보기
-> git branch AAAA   // AAAA브랜치 만들기
+> git branch <AAAA>   // <AAAA> 브랜치 만들기
+> git switch <AAAA>   // <AAAA> 브랜치로 전환
 ```
+
+### Rebase 사용하기
 ```powershell
-> git switch AAAA   // AAAA브랜치로 전환
+> git checkout <작업한 브랜치>   // 작업한 브랜치로 변경
+> git rebase <대상 브랜치>       // 합칠 브랜치의 최신 상태로 리베이스합니다.
+> git checkout <대상 브랜치>     // 합칠 브랜치로 변경
+> git merge <작업한 브랜치>      // 작업한 브랜치를 합칠 브랜치로 머지
 ```
+
 ```powershell
 > git remote add origin <git 주소>    // git 주소 와 연결
 ```
+
 ```powershell
 > git remote -v     // git 연결상태 보여줌
 ```
+
 ```powershell
 > git log --stat    // log 기록, "Q" : 빠져나오기
 ```
