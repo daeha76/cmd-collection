@@ -5,6 +5,7 @@
 > pwd
 // print working directory : 현재 폴더 path를 보여줌
 ```
+
 ```powershell
 > ls 
 // 내부 폴더, 파일을 보여줌
@@ -13,16 +14,20 @@
 > ls -r           //정렬순서를 거꾸로
 > ls -t           //시간순으로 정렬
 ```
+
 ```powershell
 > clear
 ```
+
 ```powershell
 > mkdir            //directory 만들기
 > rm -r            //directory 삭제(하위 포함)
 ```
+
 ```powershell
 > exit 터미널 종료
 ```
+
 ### push 하기
 ```powershell
 > git add .
