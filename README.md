@@ -1,12 +1,12 @@
-# Git 커맨드 명령어 정리
+# 커맨드 명령어 정리
 
-## Git Bash 명령어
-```powershell
+## Bash 명령어
+```bash
 > pwd
-// print working directory : 현재 폴더 path를 보여줌
 ```
+- print working directory : 현재 폴더 path를 보여줌
 
-```powershell
+``` bash
 > ls 
 // 내부 폴더, 파일을 보여줌
 > ls -a           //숨김파일까지 모두
@@ -15,7 +15,7 @@
 > ls -t           //시간순으로 정렬
 ```
 
-```powershell
+``` bash
 > clear
 ```
 
@@ -29,14 +29,14 @@
 - -r: 재귀적으로 삭제합니다. (하위 폴더와 파일을 모두 삭제)
 - -f: 강제로 삭제합니다. (삭제 확인을 묻지 않음)
 
-```powershell
+``` powershell
 > Remove-Item -Path "C:\path\to\folder" -Recurse -Force
 ```
 
-```powershell
+``` bash
 > exit 터미널 종료
 ```
-
+# Git 명령어
 ### push 하기
 ```powershell
 > git add .
