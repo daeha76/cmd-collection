@@ -1,4 +1,4 @@
-### Goto URL 이후 wait
+### Goto URL (wait)
 ``` cs
 public void NavigateToUrl(string url)
 {
